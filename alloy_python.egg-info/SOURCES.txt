@@ -1,0 +1,8 @@
+setup.py
+alloy_python.egg-info/PKG-INFO
+alloy_python.egg-info/SOURCES.txt
+alloy_python.egg-info/dependency_links.txt
+alloy_python.egg-info/requires.txt
+alloy_python.egg-info/top_level.txt
+embedded/__init__.py
+embedded/app.py
