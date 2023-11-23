@@ -12,7 +12,7 @@ Clone the repository to your local machine:
 git clone https://github.com/yourusername/alloy_python.git
 ```
 
-### Set up a virtual environment
+### Set up a virtual environment (DEVELOPMENT)
 
 Navigate to the cloned directory and create a virtual environment. This keeps dependencies required by this project separate from your global Python environment.
 
