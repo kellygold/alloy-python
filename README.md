@@ -2,6 +2,8 @@
 
 This SDK provides a Python interface for interacting with Alloy APIs. It's designed for flexibility and easy integration into Python projects.
 
+This package will be distributed via pypi and available via `pip install alloy-xxx`
+
 ## Installation
 
 ### Clone the repository
