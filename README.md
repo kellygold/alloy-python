@@ -1,12 +1,12 @@
 # Alloy Python SDK
 
-This SDK provides a Python interface for interacting with Alloy APIs. It's designed for ease of use and quick integration into Python projects.
+This SDK provides a Python interface for interacting with Alloy APIs. It's designed for flexibility and easy integration into Python projects.
 
 ## Installation
 
 ### Clone the repository
 
-To get started, clone the repository to your local machine:
+Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/yourusername/alloy_python.git
@@ -43,18 +43,25 @@ pip install .
 
 ## Usage
 
-After installation, you can import and use the SDK in your Python projects:
+After installation, you can import and use the SDK in your Python projects. Initialize the `Embedded` class with your API key:
 
 ```python
-from alloy_python.embedded.app import App
+from alloy_python import Embedded
 
-# Example usage
-app = App()
-response = app.get_apps()
+# Initialize with your API key
+embedded = Embedded("your_api_key_here")
+
+# Example usage with the App class
+response = embedded.App.get_apps()
 print(response)
+
+# Example usage with other classes
+# response = embedded.User.get_user()
+# response = embedded.Workflows.list()
+# ... and so on
 ```
 
-Replace the example with relevant usage as per your application's requirements.
+Replace `"your_api_key_here"` with your actual API key. The `Embedded` class provides access to all the features of the Alloy Python SDK.
 
 ## Contributing
 
