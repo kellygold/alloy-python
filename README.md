@@ -81,6 +81,9 @@ Replace `"your_api_key_here"` with your actual API key. The `Embedded` class pro
 
 For running test scripts, ensure to set the `PYTHONPATH` environment variable and configure the API key in `constants.py`.
 
+```
+export PYTHONPATH="/Users/kellygold/code/alloy_python:$PYTHONPATH"```
+
 ## Contributing
 
 Contributions to the SDK are welcome. Please ensure to follow the coding standards and write tests for new features.
